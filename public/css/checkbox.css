@@ -1,0 +1,33 @@
+/*
+input[type="checkbox"] + label::before {
+    content: "\a0";  !*不换行空格*!
+    display: inline-block;
+    vertical-align: .2em;
+    width: .8em;
+    height: .8em;
+    margin-right: .2em;
+    border-radius: .2em;
+    background-color: silver;
+    text-indent: .15em;
+    line-height: .65;  !*行高不加单位，子元素将继承数字乘以自身字体尺寸而非父元素行高*!
+}
+
+input[type="checkbox"]:checked + label::before {
+    content: "\2713";
+    background-color: yellowgreen;
+}
+
+input {
+    position: relative;
+    left: 13px;
+    visibility: hidden;
+    clip: rect(0, 0, 0, 0);
+}
+input[type="checkbox"]:focus + label::before {
+    box-shadow: 0 0 .1em .1em #58a;
+}
+input[type="checkbox"]:disabled + label::before {
+    background-color: gray;
+    box-shadow: none;
+    color: #555;
+}*/

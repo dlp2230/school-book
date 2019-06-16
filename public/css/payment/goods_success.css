@@ -1,0 +1,34 @@
+.layui-field-box {
+    width: 600px;
+    margin: 0px auto;
+}
+
+.success-title {
+    font-size: 30px;
+    text-align: center;
+    color: #FF5722;
+    margin-bottom: 40px;
+}
+
+.layui-field-box dl dt, .layui-field-box dl dd {
+    float: left;
+    height: 40px;
+    font-size: 20px;
+}
+
+.layui-field-box dl dt {
+    width: 260px;
+    text-align: right;
+}
+
+.layui-field-box dl dd {
+    width: 285px;
+    text-align: left;
+    color: #5FB878;
+}
+
+.button-list {
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 50px;
+}

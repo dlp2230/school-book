@@ -1,0 +1,305 @@
+.create-order .layui-elem-field {
+    text-align: center;
+}
+
+.create-order .search-area {
+    margin-top: 30px;
+}
+
+.create-order .layui-form-label {
+    width: 120px;
+    font-weight: 800;
+}
+
+.create-order .layui-form-pane .layui-form-label {
+    width: 120px;
+    height: 38px;
+}
+
+.create-order .layui-form-item .layui-input-inline {
+    width: 280px;
+}
+
+.create-order .layui-form-label .required-star {
+    position: relative;
+    top: 3px;
+    color: #d80c18;
+    font-family: "Aril";
+    font-style: normal;
+}
+
+.create-order .layui-form-mid span {
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.create-order .layui-form-mid a {
+    color: #1E9FFF;
+}
+
+.create-order .layui-table tr th, .layui-table tr td {
+    text-align: center;
+}
+
+.create-order .layui-table .check-tr {
+    cursor: pointer;
+}
+
+.create-order .layui-table input[type=checkbox] {
+    cursor: pointer;
+}
+
+.create-order .check-goods-block {
+    padding: 12px 24px;
+    border-radius: 3px;
+    float: left;
+    position: relative;
+    margin-right: 15px;
+    text-align: center;
+    border: #d70c18 solid 1px;
+    color: #d70c18;
+    height: 60px;
+    margin-top: 13px;
+}
+.layui-elem-quote{
+    line-height: 16px;
+}
+
+.create-order .check-goods-block i {
+    cursor: pointer;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    font-size: 22px;
+}
+
+.create-order .submit-order {
+    margin: 30px auto;
+    width:300px;
+    height: 50px;
+    color: #fff;
+    background: #d70c18;
+    font-size: 22px;
+    display: block;
+}
+
+/* 优惠券 */
+.coupon-list .list-area {
+    padding: 15px;
+}
+
+.coupon-list .item-item {
+    width: 300px;
+    height: 75px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px 0;
+    border-radius: 4px;
+    background-color: #fff;
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.coupon-list .item-item p {
+    margin: 0;
+}
+
+.coupon-list .item-item .item-brand {
+    width: 78px;
+    height: 100%;
+    vertical-align: middle;
+    float: left;
+    padding: 6px;
+    border-right: 1px solid #ddd;
+}
+
+.coupon-list .item-item .item-brand .item-logo {
+    width: 66px;
+    height: 40px;
+}
+
+.coupon-list .item-item .item-brand .item-total {
+    font-size: 14px;
+    color: #999;
+    text-align: center;
+}
+
+.coupon-list .item-item .item-info {
+    padding-left: 14px;
+    float: left;
+}
+
+.coupon-list .item-item .item-title {
+    font-size: 12px;
+    color: #333;
+    margin-bottom: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.item-title a{
+    color:#333;
+}
+.coupon-list .item-item .item-tips {
+    font-size: 10px;
+    color: #666;
+    margin-bottom: 6px;
+}
+
+.coupon-list .item-item .item-date {
+    font-size: 12px;
+    color: #999;
+}
+
+.coupon-list .item-item .item-action {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 84px;
+    border-radius: 3px;
+}
+
+.coupon-list .item-item .item-action .item-value {
+    font-size: 34px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    height: 100%;
+    line-height: 70px;
+}
+
+.coupon-list .item-item .item-action .value-icon {
+    font-size: 10px;
+}
+
+/* 优惠券分色 */
+/* 橙色 */
+.coupon-list .item-item.orange {
+    border-color: #ffdfc7;
+}
+
+.coupon-list .item-item.orange .item-action {
+    background-color: #ff9547;
+}
+
+.coupon-list .item-item.orange .item-action .item-btn {
+    color: #ff9547;
+}
+
+/* 蓝色 */
+.coupon-list .item-item.blue {
+    border-color: #d0e4fd;
+}
+
+.coupon-list .item-item.blue .item-action {
+    background-color: #5aa4ff;
+}
+
+.coupon-list .item-item.blue .item-action .item-btn {
+    color: #5aa4ff;
+}
+
+/* 绿色 */
+.coupon-list .item-item.green {
+    border-color: #c6e9eb;
+}
+
+.coupon-list .item-item.green .item-action {
+    background-color: #57d0d6;
+}
+
+.coupon-list .item-item.green .item-action .item-btn {
+    color: #57d0d6;
+}
+
+/* 红色 */
+.coupon-list .item-item.red {
+    border-color: #fdd1d0;
+}
+
+.coupon-list .item-item.red .item-action {
+    background-color: #fe626c;
+}
+
+.coupon-list .item-item.red .item-action .item-btn {
+    color: #fe626c;
+}
+
+/* 粉色 */
+.coupon-list .item-item.pink {
+    border-color: #fccaeb;
+}
+
+.coupon-list .item-item.pink .item-action {
+    background-color: #e374bd;
+}
+
+.coupon-list .item-item.pink .item-action .item-btn {
+    color: #e374bd;
+}
+
+/* 黄色 */
+.coupon-list .item-item.yellow {
+    border-color: #f4e2c6;
+}
+
+.coupon-list .item-item.yellow .item-action {
+    background-color: #efb765;
+}
+
+.coupon-list .item-item.yellow .item-action .item-btn {
+    color: #efb765;
+}
+
+/* 灰色 */
+.coupon-list .item-item.grey {
+    border-color: #ddd;
+}
+
+.coupon-list .item-item.grey .item-action {
+    background-color: #ccc;
+}
+
+.coupon-list .item-item.grey .item-action .item-btn {
+    color: #666;
+    background-color: #eee;
+}
+
+.coupon-list .item-item .item-action .item-btn.grey {
+    color: #666;
+    background-color: #eee;
+}
+/*公共标题样式*/
+.left_line{
+    width:4px;
+    height:27px;
+    background:#d70c18;
+    float:left;
+}
+.main_con_in_tit span{
+    color:#333;
+    font-size:24px;
+    line-height:24px;
+    float:left;
+    display:block;
+    margin-left:11px;
+}
+/*公共标题样式*/
+.layui-layer-molv .layui-layer-title{
+    background: #db1621 !important;
+}
+.layui-quote-nm{
+    border-color: #fff !important;
+}
+.layui-table td, .layui-table th{
+    font-family: 宋体 !important;
+}
+.layui-laypage a, .layui-laypage span{
+    height: 33px;
+    line-height: 32px !important;
+}
